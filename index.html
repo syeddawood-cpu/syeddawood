@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Web developer portfolio showcasing frontend and backend projects." />
+  <title>Developer Portfolio | Syed Dawood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span> devfolio<span class="dot">.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact" class="nav-cta">Let's Talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="hello">HELLO, I'M</p>
+        <h1>Syed Dawood<span class="accent">.</span><br><span class="outline">Web Developer</span></h1>
+        <p class="hero-text">I build clean, responsive, and user-friendly digital experiences — from polished frontend interfaces to reliable backend systems.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore My Work <span>↘</span></a><a class="button secondary" href="#contact">Contact Me</a></div>
+        <div class="hero-stats"><div><strong>08<span>+</span></strong><small>Sample Projects</small></div><div><strong>02</strong><small>Development Areas</small></div><div><strong>100<span>%</span></strong><small>Learning Mindset</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card">
+          <div class="window-bar"><span></span><span></span><span></span><label>developer.js</label></div>
+          <div class="code-content">
+            <p><span class="muted">01</span> <span class="pink">const</span> developer = {</p>
+            <p><span class="muted">02</span> &nbsp; name: <span class="green">'Syed Dawood'</span>,</p>
+            <p><span class="muted">03</span> &nbsp; role: <span class="green">'Web Developer'</span>,</p>
+            <p><span class="muted">04</span> &nbsp; skills: [</p>
+            <p><span class="muted">05</span> &nbsp;&nbsp; <span class="green">'Frontend'</span>,</p>
+            <p><span class="muted">06</span> &nbsp;&nbsp; <span class="green">'Backend'</span></p>
+            <p><span class="muted">07</span> &nbsp; ],</p>
+            <p><span class="muted">08</span> &nbsp; passion: <span class="orange">true</span></p>
+            <p><span class="muted">09</span> };</p>
+            <p class="cursor-line"><span class="muted">10</span> <span class="pink">build</span>(<span class="green">'something great'</span>);<i></i></p>
+          </div>
+        </div>
+        <div class="float-tag tag-top">✦ Creative Thinking</div><div class="float-tag tag-bottom"><span class="status-dot"></span> Open to work</div>
+        <div class="hero-orb">{"<span>DEV</span>"}</div>
+      </div>
+      <a class="scroll-note" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT ME</p><h2>Turning ideas into <span class="accent">digital reality.</span></h2></div>
+      <div class="about-grid"><div class="about-number">01<span>/ 02</span></div><div class="about-copy"><p class="lead">I'm a web developer who enjoys making websites that look great and work smoothly.</p><p>I focus on responsive layouts, accessible user experiences, maintainable code, and backend foundations that make applications dependable. This portfolio uses example projects as placeholders — replace them with your real work as you build it.</p><a class="text-link" href="#contact">Let's create something <span>↗</span></a></div></div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading"><div><p class="eyebrow">02 / SELECTED WORK</p><h2>Projects that show<br><span class="accent">what I can do.</span></h2></div><p class="section-note">A mix of frontend interfaces and backend systems. These are portfolio concepts to customize with your own links and screenshots.</p></div>
+        <div class="filter-row"><button class="filter active" data-filter="all">All Projects <span>08</span></button><button class="filter" data-filter="frontend">Frontend <span>04</span></button><button class="filter" data-filter="backend">Backend <span>04</span></button></div>
+        <div class="project-grid">
+          <article class="project-card" data-type="frontend"><div class="project-art art-store"><div class="mini-nav">ZAHVION <span>COLLECTION&nbsp;&nbsp; ABOUT&nbsp;&nbsp; BAG (0)</span></div><div class="store-hero"><small>SCENT IS A SIGNATURE</small><b>Find your<br><em>own note.</em></b><span class="mini-pill">DISCOVER THE COLLECTION ↗</span></div><div class="bottle bottle-one"></div><div class="bottle bottle-two"></div></div><div class="project-meta"><div><span class="project-type">FRONTEND · 01</span><h3>Perfume E-commerce</h3></div><span class="project-arrow">↗</span></div><p>A premium storefront concept with product cards, responsive layout, and shopping-focused visuals.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="project-card" data-type="frontend"><div class="project-art art-dashboard"><div class="dash-side"><b>◈</b><i></i><i></i><i></i><i></i></div><div class="dash-main"><div class="dash-top">Overview <span>•••</span></div><div class="dash-cards"><i></i><i></i><i></i></div><div class="chart"><div class="chart-line"></div><span>MON&nbsp;&nbsp;&nbsp; TUE&nbsp;&nbsp;&nbsp; WED&nbsp;&nbsp;&nbsp; THU&nbsp;&nbsp;&nbsp; FRI</span></div></div></div><div class="project-meta"><div><span class="project-type">FRONTEND · 02</span><h3>Analytics Dashboard UI</h3></div><span class="project-arrow">↗</span></div><p>A clean dashboard interface with data cards, charts, and reusable layout components.</p><div class="tech-tags"><span>React</span><span>CSS</span><span>Charts</span></div></article>
+          <article class="project-card" data-type="frontend"><div class="project-art art-portfolio"><div class="port-nav">PORTFOLIO <span>WORK&nbsp;&nbsp; ABOUT&nbsp;&nbsp; CONTACT</span></div><div class="port-copy"><small>DESIGN · DEVELOPMENT</small><b>Ideas into<br><span>experiences.</span></b><div class="port-circle">✳</div></div></div><div class="project-meta"><div><span class="project-type">FRONTEND · 03</span><h3>Creative Portfolio</h3></div><span class="project-arrow">↗</span></div><p>A personal portfolio concept with bold typography, smooth navigation, and project storytelling.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>Animation</span></div></article>
+          <article class="project-card" data-type="frontend"><div class="project-art art-food"><div class="food-nav">fresh<span>plate.</span><small>MENU&nbsp;&nbsp; OUR STORY&nbsp;&nbsp; ORDER</small></div><div class="food-copy"><small>GOOD FOOD, GOOD MOOD</small><b>Eat well.<br>Feel <em>good.</em></b><div class="food-button">VIEW MENU ↗</div></div><div class="food-circle">FRESH<br>DAILY</div></div><div class="project-meta"><div><span class="project-type">FRONTEND · 04</span><h3>Restaurant Landing Page</h3></div><span class="project-arrow">↗</span></div><p>A responsive restaurant website concept with menu highlights and clear calls to action.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="project-card" data-type="backend"><div class="project-art art-api"><div class="terminal"><div><span></span><span></span><span></span><label>api-server</label></div><p><b>$</b> npm run server</p><p class="terminal-green">✓ Server running on :5000</p><p><b>GET</b> /api/products <em>200 OK</em></p><p><b>POST</b> /api/auth/login <em>201 OK</em></p><p class="terminal-muted">{ "status": "success" }</p></div></div><div class="project-meta"><div><span class="project-type">BACKEND · 01</span><h3>REST API Service</h3></div><span class="project-arrow">↗</span></div><p>Example API architecture with organized routes, validation, error handling, and JSON responses.</p><div class="tech-tags"><span>Node.js</span><span>Express</span><span>REST API</span></div></article>
+          <article class="project-card" data-type="backend"><div class="project-art art-auth"><div class="auth-card"><div class="auth-icon">✳</div><small>WELCOME BACK</small><b>Sign in to<br>your account</b><div class="fake-input">Email address</div><div class="fake-input">Password&nbsp;&nbsp; ••••••••</div><div class="fake-submit">SIGN IN →</div><span>Secure authentication flow</span></div></div><div class="project-meta"><div><span class="project-type">BACKEND · 02</span><h3>Authentication System</h3></div><span class="project-arrow">↗</span></div><p>A login and signup system concept with password hashing, validation, and protected routes.</p><div class="tech-tags"><span>Node.js</span><span>JWT</span><span>bcrypt</span></div></article>
+          <article class="project-card" data-type="backend"><div class="project-art art-database"><div class="db-window"><div class="db-head">▦ &nbsp; users_table <span>•••</span></div><div class="db-row db-label"><span>ID</span><span>NAME</span><span>ROLE</span><span>STATUS</span></div><div class="db-row"><span>001</span><span>Alex</span><span>Admin</span><i>Active</i></div><div class="db-row"><span>002</span><span>Sam</span><span>User</span><i>Active</i></div><div class="db-row"><span>003</span><span>Jordan</span><span>User</span><i>Active</i></div><div class="db-row"><span>004</span><span>Taylor</span><span>Editor</span><i>Active</i></div></div></div><div class="project-meta"><div><span class="project-type">BACKEND · 03</span><h3>Database Management</h3></div><span class="project-arrow">↗</span></div><p>A sample database layer demonstrating structured data, CRUD operations, and relationships.</p><div class="tech-tags"><span>SQL</span><span>PostgreSQL</span><span>CRUD</span></div></article>
+          <article class="project-card" data-type="backend"><div class="project-art art-admin"><div class="admin-window"><div class="admin-top">Control Center <span>●●●</span></div><div class="admin-layout"><div class="admin-menu"><i></i><i></i><i></i><i></i></div><div class="admin-content"><b>Good morning, Admin</b><div class="admin-stats"><i></i><i></i><i></i></div><div class="admin-table"><i></i><i></i><i></i></div></div></div></div></div><div class="project-meta"><div><span class="project-type">BACKEND · 04</span><h3>Admin Management Panel</h3></div><span class="project-arrow">↗</span></div><p>An admin panel concept for managing users, products, orders, and basic application data.</p><div class="tech-tags"><span>Express</span><span>SQL</span><span>Admin UI</span></div></article>
+        </div>
+        <p class="project-disclaimer">Note: Project previews above are illustrative concepts, not deployed applications. Add your GitHub/demo links when your projects are ready.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading"><p class="eyebrow">03 / MY TOOLKIT</p><h2>Tools I use to make<br><span class="accent">things happen.</span></h2></div>
+      <div class="skills-grid"><div class="skill-panel"><div class="skill-panel-head"><span class="skill-icon">◫</span><div><h3>Frontend Development</h3><p>What users see and interact with</p></div></div><div class="skill-list"><span>HTML5</span><span>CSS3 / Flexbox / Grid</span><span>JavaScript</span><span>React</span><span>Responsive Design</span><span>UI / UX Basics</span></div></div><div class="skill-panel"><div class="skill-panel-head"><span class="skill-icon backend-icon">⌘</span><div><h3>Backend Development</h3><p>What powers the experience</p></div></div><div class="skill-list"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>SQL / PostgreSQL</span><span>Authentication</span><span>Git / GitHub</span></div></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have a project<br>in <span class="accent">mind?</span></h2><p>Let's talk about what we can build together.</p><a class="button primary" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a><div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a></div></div></section>
+  </main>
+  <footer class="footer"><div class="container"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span> devfolio<span class="dot">.</span></a><span>Designed & built with curiosity.</span><span>© <span id="year"></span> Syed Dawood</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
